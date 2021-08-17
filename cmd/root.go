@@ -91,7 +91,6 @@ func init() {
 
 	rootCmd.PersistentFlags().BoolVarP(&debug, "debug", "d", false, "debug mode")
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.jdiff.yaml)")
-
 }
 
 // initConfig reads in config file and ENV variables if set.
